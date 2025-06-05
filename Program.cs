@@ -19,6 +19,7 @@ class Program
     static System.Timers.Timer? cameraTimer;
     static string photoFolder = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "photos");
 
+    //
     [DllImport("kernel32.dll")]
     private static extern IntPtr GetConsoleWindow();
 
